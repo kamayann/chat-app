@@ -1,26 +1,6 @@
 <div class="wrapper">
   <div class="side-bar">
     <%= render "side_bar" %>
-    <div class="side-top">
-      <div class="user-name">
-        <%= link_to current_user.name, edit_user_path(current_user)%>
-      </div>
-      <div class="create-room">
-        <a href = "#">チャットを作成する</a>
-      </div>
-    </div>
-    <div class="side-bottom">
-      <div class="room">
-        <div class="room-name">
-          <a href= "#">techroom1</a>
-        </div>
-      </div>
-      <div class="room">
-        <div class="room-name">
-          <a href= "#">techroom2</a>
-        </div>
-      </div>
-    </div>
   </div>
   <div class="chat">
       <%= render "main_chat" %>
